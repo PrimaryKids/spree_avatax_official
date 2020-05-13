@@ -26,7 +26,7 @@ Gem::Specification.new do |s| # rubocop:disable Metrics/BlockLength
 
   # s.add_dependency 'spree_backend', spree_version
   # s.add_dependency 'spree_core',    spree_version
-  s.add_dependency 'spree_extension'
+  # s.add_dependency 'spree_extension'
 
   s.add_development_dependency 'appraisal'
   s.add_development_dependency 'puma'
@@ -37,7 +37,7 @@ Gem::Specification.new do |s| # rubocop:disable Metrics/BlockLength
   s.add_development_dependency 'database_cleaner'
   s.add_development_dependency 'dotenv-rails'
   s.add_development_dependency 'factory_bot'
-  # s.add_development_dependency 'ffaker'
+  s.add_development_dependency 'ffaker'
   s.add_development_dependency 'mysql2'
   s.add_development_dependency 'pg'
   s.add_development_dependency 'pry'
